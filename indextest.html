@@ -1,7 +1,6 @@
-
 <html>
   <head>
-    <title>Click me if you can</title>
+    <title>Login if you can</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
       html, body {
@@ -15,7 +14,12 @@
         font-family: sans-serif;
         font-size: 18px;
       }
-
+      
+      .container {
+      	width: 300px;
+        margin: 30px auto;
+        text-align: center;
+      }
       body {
         max-width: 400px;
         padding: 1rem;
@@ -89,12 +93,18 @@
   <body>
 
     <hgroup>
-      <h1>Click below to unsubscribe from our newsletter</h1>
+      <h1>Login Page</h1>
+      <form>  
+        <div class="container">      
+            <input type="text" placeholder="Enter Username" name="username" required>  
+             
+            <input type="password" placeholder="Enter Password" name="password" required>    
+        </div>   
+      </form> 
       <h3><a href="https://www.linkedin.com/in/devi-kiran-reddy-k-10ab58177" tabindex="-1">— @Kiran</a></h3>
     </hgroup>
-
     <div class="button-wrapper">
-      <button>Unsubscribe</button>
+      <button>Login</button>
     </div>
 
     <script>
